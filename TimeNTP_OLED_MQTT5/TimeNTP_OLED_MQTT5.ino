@@ -15,8 +15,8 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 //--------WIFI-------------
-const char* ssid = "Formig4";
-const char* password = "Wifi@formiga";
+const char* ssid = "Formiga";
+const char* password = "*********";
 const char* mqtt_server = "broker.mqtt-dashboard.com"; //Servidor MQTT
 WiFiClient espClient;
 PubSubClient client(espClient);
